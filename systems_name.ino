@@ -8,6 +8,10 @@ const int GREEN_PIN = 3;
 const int BLUE_PIN = 4;
 const int YELLOW_PIN = 5;
 const int WHITE_PIN = 6;
+int lightTime = random(100,151);
+int selectedLight = 1;
+int endLight = random(1,6);
+bool running = true;
 
  void setup() {
     pinMode(RED_PIN, OUTPUT);
@@ -15,10 +19,6 @@ const int WHITE_PIN = 6;
     pinMode(BLUE_PIN, OUTPUT);
     pinMode(YELLOW_PIN, OUTPUT);
     pinMode(WHITE_PIN, OUTPUT);
-    int lightTime = random(100,151);
-    int selectedLight = 1;
-    int endLight = random(1,6);
-    bool running = true;
  }
 
 
