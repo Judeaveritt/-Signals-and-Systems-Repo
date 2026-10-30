@@ -62,5 +62,6 @@ bool running = true;
         if (selectedLight > 5) {
             selectedLight = 1;
         }
+        delay(lightTime)
         lightTime += random(50,81);
  }
