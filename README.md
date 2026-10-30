@@ -26,6 +26,8 @@
 | 1 | TODO | TODO | TODO | TODO | TODO | TODO |
 | 2 | TODO | TODO | TODO | TODO | TODO | TODO |
 | 3 | TODO | TODO | TODO | TODO | TODO | TODO |
+| 4 | TODO | TODO | TODO | TODO | TODO | TODO |
+| 5 | TODO | TODO | TODO | TODO | TODO | TODO |
 
 **Sequence:** TODO → TODO → TODO → repeat  
 
@@ -43,6 +45,8 @@
 
 | LED | Arduino output voltage (V) | LED voltage drop (V) | Calculated resistor voltage (V) | Target current (A) | Calculated resistance (Ω) | Chosen resistance (Ω) | Estimated actual current (A) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
+| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
