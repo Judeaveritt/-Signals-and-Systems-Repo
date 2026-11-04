@@ -33,8 +33,7 @@
 
 ## 3. Circuit design
 
-> Design your layout in TinkerCAD.
-> Export an image and upload it to this repo. Link it below
+
 
 ![Circuit diagram screenshot](circuit.png)
 
@@ -45,11 +44,11 @@
 
 | LED | Arduino output voltage (V) | LED voltage drop (V) | Calculated resistor voltage (V) | Target current (A) | Calculated resistance (Ω) | Chosen resistance (Ω) | Estimated actual current (A) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
-| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
-| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
-| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
-| Color LED | 5.0 | TODO | TODO | TODO | TODO | TODO | TODO |
+| Red LED | 5.0 | 2v  |3v |10mA |300Ω|330Ω |  6mA |
+| Blue LED | 5.0 | 3v  | 2v | 10mA |200Ω  | 220Ω  | 9mA |
+| Green LED | 5.0 | 3v | 2v | 15mA |  133Ω | 220Ω| 9mA | 
+| yellow LED | 5.0 | 2v | 3v | 15mA |200Ω  |  220Ω| 13mA | 
+| White LED | 5.0 | 3v  | 2v  | 15mA |133Ω|  220Ω | 9mA |
 
 ## 4. Testing and revision
 > Test your system with two people outside our class. Show each person the complete sequence before explaining its intended meaning. Ask:
