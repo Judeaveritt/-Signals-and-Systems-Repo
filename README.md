@@ -11,12 +11,6 @@
 - **How does the user interpret and use that information?** The lights will stop rotating though and then there wil one light that blinks a few times then goes solid. This is the light that wins. 
 ## 2. State table and pattern plan
 
-> Use the launch activity's approach: interpret a pattern, identify its states, and explain its meaning. Plan at least three meaningful message states. A 
-> message may use several rows, such as a blinking pattern.
-
-> Record a new row whenever any LED changes. Use ON/OFF and durations in milliseconds (1,000 ms = 1 second). Add or remove rows as needed. The last row 
-> returns to the first automatically.
-
 | Step | State/message name | Red LED  | Blue LED | Green LED | Yellow LED | White LED | Duration (ms) | Meaning to the user |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Red light | ON | OFF | OFF | OFF | OFF | 20 - 600 | Red is selected |
@@ -64,7 +58,5 @@
 **Result after testing the revision:** TODO
 
 ## 5. Video Demonstration
-> Replace the placeholder below with a link to your video. Demonstrate the complete repeating sequence and explain what each signal communicates. Make sure 
-> your instructor can access the video.
 
-[Video demonstration](https://youtube.com/)
+[Video demonstration](https://youtube.com/shorts/T9hKf_W99U8?feature=share)
