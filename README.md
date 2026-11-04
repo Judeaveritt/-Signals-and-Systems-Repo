@@ -1,7 +1,4 @@
 # Signals and Systems
-> Design, build, program, and test a signaling system that communicates useful information without a screen or speaker. The red, yellow, and green LEDs 
-> automatically cycle through your planned states; no push button is needed. Complete this README as you work. Keep your planning, testing evidence, and 
-> link to your video demo here.
 
 ## 1. System purpose
 
