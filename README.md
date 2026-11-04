@@ -1,18 +1,14 @@
 # Signals and Systems
-
-> ** Remove the instructions in block quotes before you submit **
-
 > Design, build, program, and test a signaling system that communicates useful information without a screen or speaker. The red, yellow, and green LEDs 
 > automatically cycle through your planned states; no push button is needed. Complete this README as you work. Keep your planning, testing evidence, and 
 > link to your video demo here.
 
 ## 1. System purpose
 
-- **Problem and real-world context:** TODO
-- **Intended user:** TODO
-- **What information should your signals communicate?** TODO
-- **How does the user interpret and use that information?** TODO
-
+- **Problem and real-world context:** To show 8th graders how fun and cool coding can be and trying to get them interested in coding.
+- **Intended user:**  Was built for 8th graders but can be used for any age. 
+- **What information should your signals communicate?** Which color was the winner by being the light that is lite at the end of the sequence. 
+- **How does the user interpret and use that information?** The lights will stop rotating though and then there wil one light that blinks a few times then goes solid. This is the light that wins. 
 ## 2. State table and pattern plan
 
 > Use the launch activity's approach: interpret a pattern, identify its states, and explain its meaning. Plan at least three meaningful message states. A 
@@ -39,9 +35,6 @@
 ![Circuit diagram screenshot](circuit.png)
 
 ### Ohm's law calculations
-
-> Use `R = (V_output - V_LED) / I` to estimate the resistance for each LED. Use volts, amperes, and ohms; convert milliamperes to amperes. 
-> . Choose a suitable available resistor and check the resulting current using `I = (V_output - V_LED) / R`.
 
 | LED | Arduino output voltage (V) | LED voltage drop (V) | Calculated resistor voltage (V) | Target current (A) | Calculated resistance (Ω) | Chosen resistance (Ω) | Estimated actual current (A) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
