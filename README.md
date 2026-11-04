@@ -21,15 +21,16 @@
 > Record a new row whenever any LED changes. Use ON/OFF and durations in milliseconds (1,000 ms = 1 second). Add or remove rows as needed. The last row 
 > returns to the first automatically.
 
-| Step | State/message name | LED Color | LED Color | LED Color | Duration (ms) | Meaning to the user |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 2 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 3 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 4 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 5 | TODO | TODO | TODO | TODO | TODO | TODO |
+| Step | State/message name | Red LED  | Blue LED | Green LED | Yellow LED | White LED | Duration (ms) | Meaning to the user |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Red light | ON | OFF | OFF | OFF | OFF | 20 - 600 | Red is selected |
+| 2 | Blue light | OFF | ON | OFF | OFF | OFF | 20 - 600 | Blue is selected |
+| 3 | Green light | OFF | OFF | ON | OFF | OFF | 20 - 600 | Green is selected |
+| 4 | Yellow light | OFF | OFF | OFF | ON | OFF | 20 - 600 | Yellow is selected |
+| 5 | White light | OFF | OFF | OFF | OFF | ON | 20 - 600 | White is selected |
+| 5 | No light | OFF | OFF | OFF | OFF | OFF | 20 - 600 | The round is over, whichever light is blinking is the selected one |
 
-**Sequence:** TODO → TODO → TODO → repeat  
+**Sequence:** Red light → Blue light → Green light → Yellow light → White light → repeat until light time is long enough → End light → No light → repeat three times → End light 
 
 ## 3. Circuit design
 
