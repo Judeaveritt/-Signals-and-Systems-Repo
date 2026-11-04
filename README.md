@@ -1,11 +1,5 @@
 # Signals and Systems
 
-> ** Remove the instructions in block quotes before you submit **
-
-> Design, build, program, and test a signaling system that communicates useful information without a screen or speaker. The red, yellow, and green LEDs 
-> automatically cycle through your planned states; no push button is needed. Complete this README as you work. Keep your planning, testing evidence, and 
-> link to your video demo here.
-
 ## 1. System purpose
 
 - **Problem and real-world context:** TODO
@@ -14,12 +8,6 @@
 - **How does the user interpret and use that information?** TODO
 
 ## 2. State table and pattern plan
-
-> Use the launch activity's approach: interpret a pattern, identify its states, and explain its meaning. Plan at least three meaningful message states. A 
-> message may use several rows, such as a blinking pattern.
-
-> Record a new row whenever any LED changes. Use ON/OFF and durations in milliseconds (1,000 ms = 1 second). Add or remove rows as needed. The last row 
-> returns to the first automatically.
 
 | Step | State/message name | Red LED  | Blue LED | Green LED | Yellow LED | White LED | Duration (ms) | Meaning to the user |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,9 +27,6 @@
 ![Circuit diagram screenshot](circuit.png)
 
 ### Ohm's law calculations
-
-> Use `R = (V_output - V_LED) / I` to estimate the resistance for each LED. Use volts, amperes, and ohms; convert milliamperes to amperes. 
-> . Choose a suitable available resistor and check the resulting current using `I = (V_output - V_LED) / R`.
 
 | LED | Arduino output voltage (V) | LED voltage drop (V) | Calculated resistor voltage (V) | Target current (A) | Calculated resistance (Ω) | Chosen resistance (Ω) | Estimated actual current (A) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -71,7 +56,5 @@
 **Result after testing the revision:** TODO
 
 ## 5. Video Demonstration
-> Replace the placeholder below with a link to your video. Demonstrate the complete repeating sequence and explain what each signal communicates. Make sure 
-> your instructor can access the video.
 
-[Video demonstration](https://youtube.com/)
+[Video demonstration](https://youtube.com/shorts/T9hKf_W99U8?feature=share)
